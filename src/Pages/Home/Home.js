@@ -1,10 +1,12 @@
 import React from 'react';
-import Banner from './Banner';
+import AboutMe from '../AboutMe/AboutMe';
+
+
 
 const Home = () => {
     return (
-        <div>
-            <Banner></Banner>
+        <div className='container mx-auto'>
+            <AboutMe></AboutMe>
         </div>
     );
 };
