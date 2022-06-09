@@ -2,11 +2,13 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div class="hero min-h-screen bg-base-200">
+        <div id='contact' class="hero min-h-screen bg-base-200">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <div class="text-center lg:text-left">
       <h1 class="text-5xl font-bold">Contact Me</h1>
       <p class="py-6">Always available for work if the right project comes along, Feel free to contact me!</p>
+      <h4>Email me at : <span className='text-green-600'>iamparvezrahman@gmail.com</span></h4>
+      <h4>Phone Number : <span className='text-green-600'>+8801686172299</span></h4>
     </div>
     <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <div class="card-body">
