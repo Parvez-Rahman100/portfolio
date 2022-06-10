@@ -3,6 +3,7 @@ import './App.css';
 import AboutMe from './Pages/AboutMe/AboutMe';
 import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
+import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home';
 import NavBar from './Pages/Home/NavBar';
 import NotFound from './Pages/NotFound/NotFound';
@@ -23,6 +24,7 @@ function App() {
        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
      </Routes>
+     <Footer></Footer>
     </div>
   );
 }

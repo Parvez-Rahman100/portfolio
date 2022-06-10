@@ -1,7 +1,9 @@
 [
     {
-        "id":1,
         "img":"https://i.ibb.co/bRzwy2P/gnome-shell-screenshot-atfmyh.png",
+        "img2":"https://i.ibb.co/cvQM16v/laptop2.png",
+        "img3":"https://i.ibb.co/grmNtq1/laptop3.png",
+        "img4":"https://i.ibb.co/cc5gSFd/laptop4.png",
         "Name":"Laptop Gizmo",
         "description":"It's a tools website where you will find different parts of laptop which you can buy.Login, Registration via email password or social login(google).Both users and admin will be able to access the dashboard. Admin can add new product, manage users, delete products.",
         "live":"https://laptop-gizmo.web.app/",
@@ -9,8 +11,10 @@
         "server":"https://github.com/Parvez-Rahman100/laptop-gizmo-server"
     },
     {
-        "id":2,
         "img":"https://i.ibb.co/QQ4R422/Screenshot-from-2022-05-26-20-24-08.png",
+        "img2":"https://i.ibb.co/mqZs5hx/perfumes2.png",
+        "img3":"https://i.ibb.co/F386GRN/perfumes3.png",
+        "img4":"https://i.ibb.co/SypgbGS/perfumes4.png",
         "Name":"Perfumes Granary",
         "description":"It's a kind of e-commerce website where you will find different perfumes which you can buy.Login, Registration via email password or social login(google).You can add products, Order Products.",
         "live":"https://perfumes-granary.web.app/",
@@ -18,8 +22,10 @@
         "server":"https://github.com/Parvez-Rahman100/perfumes-granary-server"
     },
     {
-        "id":3,
         "img":"https://i.ibb.co/8x5YwyQ/Screenshot-20220609184210-1904x862.png",
+        "img2":"https://i.ibb.co/vj7sDx6/wedding2.png",
+        "img3":"https://i.ibb.co/G9W5CMz/wedding3.png",
+        "img4":" https://i.ibb.co/cF1Qy4X/wedding4.png",
         "Name":"Wedding Photographer's Vision",
         "description":"Login, Registration via email password or social login(google).You can see our services.You can checkout services.",
         "live":"https://vision-of-wedding-photographer.web.app/",
