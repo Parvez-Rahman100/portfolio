@@ -1,19 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Project = ({project}) => {
-    const {Name,img,description,live,client,server} = project;
+  const navigate = useNavigate()
+    const {Name,img,_id} = project;
+
+    const handleDetails =(id)=>{
+      navigate(`/project/${id}`)
+    }
     return (
         <div  className='container mx-auto'>
-            <div class="card lg:card-side bg-base-100 shadow-xl">
-  <figure><img className='projectImg' style={{width:'800px'}} src={img} alt="project" /></figure>
-  <div class="card-body">
-    <h2 class="card-title">{Name}</h2>
-    <p>{description}</p>
-    <a className='btn btn-primary' href={live} target="_blank" rel="noopener noreferrer">Live</a>
-    <a className='btn btn-primary' href={client} target="_blank" rel="noopener noreferrer">Client</a>
-    <a className='btn btn-primary' href={server} target="_blank" rel="noopener noreferrer">Server</a>
-  </div>
-</div>
+           <div className=' my-16'>
+           <img style={{width:'500px'}} className='projectImg' src={img} alt="project" />
+           <h2 className='text-center text-xl font-bold my-2'> {Name}</h2>
+           <button onClick={()=>handleDetails(_id)} className='btn btn-outline w-48 block mx-auto my-2'>Details</button>
+           </div>
         </div>
     );
 };
