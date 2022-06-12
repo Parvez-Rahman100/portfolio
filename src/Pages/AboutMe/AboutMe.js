@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../Assests/Resume-Parvez-Miah.pdf'
+import resume from '../../Assests/ResumeOfParvez.pdf'
 
 
 const AboutMe = () => {
@@ -13,6 +13,7 @@ const AboutMe = () => {
       <h2 className='text-xl font-bold'>I am a <span className='typewriter text-green-600'>Front-end Web Developer .</span> </h2>
       <p className="py-6">I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through meaningful interactions. Check out my Projects.</p>
       <a className='btn btn-primary' href={resume} download>GET RESUME</a>
+      
     </div>
   </div>
 </div>

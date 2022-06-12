@@ -10,7 +10,7 @@ const Projects = () => {
     },[])
     return (
         <div id='projects'>
-            <h1 className='text-center text-4xl font-bold my-7'>My Projects </h1>
+            <h1 className='text-center text-5xl text-green-600 font-bold my-7'>My Projects </h1>
             <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6' >
                 {
                     projects.map(project =><Project
