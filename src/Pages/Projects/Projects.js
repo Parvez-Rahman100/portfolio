@@ -14,7 +14,7 @@ const Projects = () => {
             <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6' >
                 {
                     projects.map(project =><Project
-                    key={project.id}
+                    key={project._id}
                     project={project}
                     ></Project>)
                 }
