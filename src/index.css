@@ -20,7 +20,7 @@
   content: '_';
   position: absolute;
   right: 0;
-  background-color: white;
+  background-color: #FAF7F5;
   width: 100%;
   animation: typing 3s  steps(25) alternate infinite,
               line 1s infinite;
