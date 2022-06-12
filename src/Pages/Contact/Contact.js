@@ -8,13 +8,13 @@ const Contact = () => {
       <h1 className="text-5xl font-bold">Contact Me</h1>
       <p className="py-4">Always available for work if the right project comes along, Feel free to contact me!</p>
       
-      <h4>Email me at : <span className='text-green-600'>iamparvezrahman@gmail.com</span></h4>
-      <h4>Phone Number : <span className='text-green-600'>+8801686172299</span></h4>
+      <h4><i style={{fontSize:'30px'}} class="m-2 fa-solid fa-at"></i> <span className='text-green-600'>iamparvezrahman@gmail.com</span></h4>
+      <h4><i style={{fontSize:'30px'}} class="m-2 fa-solid fa-phone"></i> <span className='text-green-600'>+8801686172299</span></h4>
       <div className='flex lg:justify-start justify-center items-center my-4'>
-        <a href='https://github.com/Parvez-Rahman100'><i className="mr-4 ficon fa-brands fa-github"></i></a>
-        <a href='https://www.linkedin.com/in/parvez-miah-945910229/'><i className="mr-4 ficon fa-brands fa-linkedin"></i></a>
-        <a href='https://www.facebook.com/parvez.rahman.144/'><i className="mr-4 ficon fa-brands fa-facebook"></i></a>
-        <a href='https://www.instagram.com/i_amparvezrahman/'><i className="mr-4 ficon fa-brands fa-instagram"></i></a>
+        <a target='_blank' rel="noreferrer" href='https://github.com/Parvez-Rahman100'><i className="mr-4 ficon fa-brands fa-github"></i></a>
+        <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/parvez-miah-945910229/'><i className="mr-4 ficon fa-brands fa-linkedin"></i></a>
+        <a target='_blank' rel="noreferrer" href='https://www.facebook.com/parvez.rahman.144/'><i className="mr-4 ficon fa-brands fa-facebook"></i></a>
+        <a target='_blank' rel="noreferrer" href='https://www.instagram.com/i_amparvezrahman/'><i className="mr-4 ficon fa-brands fa-instagram"></i></a>
       </div>
     </div>
     
@@ -40,7 +40,7 @@ const Contact = () => {
           <input type="text" name='email' placeholder="Email" className="input input-bordered" required/>
         </div>
         <div className="form-control mt-6">
-          <button type='submit' className="btn btn-primary">Send Message</button>
+          <button type='submit' className="btn btn-primary">Send Message </button>
         </div>
       </form>
       </div>
